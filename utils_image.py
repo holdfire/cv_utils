@@ -8,8 +8,6 @@ padding_image
 import numpy as np
 import cv2
 
-
-
 def blur_image(img, bboxes, ksize=(25, 25)):
     """
     在原图矩形范围进行高斯模糊（打马赛克）
