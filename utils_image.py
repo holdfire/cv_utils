@@ -62,7 +62,6 @@ def padding_image(img, pads, value):
     img = cv2.copyMakeBorder(img, top, bottom, left, right, cv2.BORDER_CONSTANT, value=value)
     return img
 
-
 if __name__ == "__main__":
     img = cv2.imread("./test.jpg")
     pts = [[100, 100], [200, 200], [300, 300]]
